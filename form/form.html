@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Form Member Account</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <div class="konten">
+ <div class="kepala">
+ <div class="lock"></div>
+ <h2 class="judul">Form registrasi siswa</h2>
+ </div>
+ <div class="artikel">
+ <form class="horizontal" action="form.html" method="post">
+ <fieldset><legend>Data Akun Siswa Baru</legend>
+ <div class="grup">
+ <label for="E-mail">E-mail<span class="required" >*</span></label>
+ <input type="text" name="E-mail" required placeholder="Masukkan E-mail Anda">
+ </div>
+ <div class="grup">
+ <label for="password">Password<span class="required">*</span></label>
+ <input type="password" name="password" required placeholder="Masukkan password Anda">
+ </div>
+ </fieldset>
+ <fieldset><legend>Data Diri</legend>
+ <div class="grup">
+ <label for="nama">Nama Lengkap<span class="required">*</span></label>
+ <input type="text" name="Nama" required placeholder="Masukkan Nama Lengkap Anda">
+ </div>
+ <div class="grup">
+ <label for="asal sekolah">Asal Sekolah<span class="required">*</span></label>
+ <input type="sekolah" name="sekolah" required placeholder="Masukkan Alamat Asal Sekolah Anda">
+ </div>
+ <div class="grup">
+ <label for="no.telp">No Handphone<span class="required">*</span></label>
+ <input type="tel" name="No.Hp" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" required placeholder=" Masukkan No.Hp 08xxxxxxxxxx">
+ </div>
+ <div class="grup-offset">
+ <label for="JK">Jenis Kelamin<span class="required">*</span><br></label>
+ <input type="radio" name="JK" value="Laki-Laki" required>Laki-laki
+ <input type="radio" name="JK" value="Perempuan" required>Perempuan
+ </div>
+ <div class="grup">
+ <label for="alamat">Alamat</label>
+ <input type="textarea" name="alamat" rows="3" cols="10" required placeholder="Alamat tempat tinggal Anda">
+ </div>
+ <div class="grup-offset">
+ <button type="submit" value="Sign In">Submit</button>
+ <button type="reset" value="Reset">Reset</button>
+ </div>
+ </fieldset>
+ <div class="footer">
+ <h5>Copyright © 2020 - Ameri Yulina. All Rights.</h5>
+ </div>
+ </form>
+ </div>
+ </div>
+</body>
+</html>
